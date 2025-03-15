@@ -25,6 +25,12 @@
     display: flex;
 }
 
+.anchor {
+  display: inline-block;
+  width: 67px;
+  font-size: 14px;
+}
+
 a {
     text-decoration: none;
     color: white;
