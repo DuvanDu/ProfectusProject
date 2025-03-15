@@ -18,14 +18,14 @@
     align-items: center;
     display: flex;
     height: 100%;
-    padding-right: 400px;
+    margin-right: 20px;
 }
 
 .header-items {
     display: flex;
 }
 
-.anchor {
+.anchor {                       /* !: Tener en cuenta*/
   display: inline-block;
   width: 67px;
   font-size: 14px;
@@ -63,15 +63,43 @@ li {
 }
 
 .images{
-    background: yellow;
+    position: relative;
+    background-image: url("/images/kids.jpg");
     margin-left: 34px;
     width: 93.5%;
     height: 585px;
-    opacity: .4;
+    opacity: .4; ;
+}
+
+
+
+.title_image {
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    font-size: 90px;
+    line-height: 95px;
+    width: 600px;
+    height: 120px;
+}
+
+.parag_image {
+    position: absolute;
+    bottom: 220px;
+    right: 10px;
+    font-size: 16px;
+    width: 310px;
+}
+
+.btt_image {
+    position: absolute;
+    bottom: 193px;
+    right: 239px;
+    border-radius: 10px;
 }
 
 .about_us{
-    display: flex;  /* TODO: Por revisar*/
+    display: flex;              /* TODO: Por revisar*/
     background: purple;
     margin-left: 34px;
     width: 93.5%;
