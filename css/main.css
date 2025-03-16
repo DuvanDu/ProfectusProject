@@ -66,7 +66,7 @@ li {
 
 .images{
     position: relative;
-    background-image: url("/images/kids.jpg");
+    background-image: url("images/kids.jpg");
     margin-left: 34px;
     width: 93.5%;
     height: 585px;
