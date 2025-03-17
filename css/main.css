@@ -1,5 +1,5 @@
 .landing {
-    background-image: url(https://cdn.dribbble.com/userupload/19324440/file/original-8dd3faf4634245268fd7e21810a11879.jpg?resize=1024x3442&vertical=center);
+    /* background-image: url(https://cdn.dribbble.com/userupload/19324440/file/original-8dd3faf4634245268fd7e21810a11879.jpg?resize=1024x3442&vertical=center); */
     width: 1024px;
     height: 1900px;
     margin: 0 auto;
@@ -49,6 +49,8 @@ li {
 .main {
     margin-left: 80px;
     font-size: 30px;
+    position: relative;
+    right: 20px;
 }
 
 .demo {
@@ -57,6 +59,7 @@ li {
     border: none;
     background-color: beige;
     color: black;
+    cursor: pointer;
 }
 
 .demo:hover {
@@ -81,8 +84,9 @@ li {
     left: 40px;
     font-size: 90px;
     line-height: 95px;
-    width: 600px;
+    width: 500px;
     height: 120px;
+    color: white;
 }
 
 .parag_image {
@@ -91,18 +95,22 @@ li {
     right: 10px;
     font-size: 16px;
     width: 310px;
+    color: white;
 }
 
 .btt_image {
     position: absolute;
     bottom: 193px;
     right: 239px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 8px;
 }
 
 .about_us{
     display: flex;          /* TODO: Por revisar*/
-    background: purple;
+    /* background: purple; */
     margin-left: 34px;
     width: 93.5%;
     margin-top: 47px;
@@ -158,7 +166,7 @@ li {
 }
 
 .events{
-    background: peru;
+    /* background: peru; */
     margin-left: 34px;
     width: 93.5%;
     margin-top: 95px;
@@ -203,7 +211,7 @@ li {
 }
 
 footer{
-    background-image: url(/images/footer.jpg);
+    /* background-image: url(/images/footer.jpg); */
     margin-left: 34px;
     width: 93.5%;
     height: 205px;
@@ -251,3 +259,49 @@ footer{
     margin-top: 18px;
     margin-left: 40px;
 }
+
+.sm {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    bottom: 6px;
+
+}
+
+.btn_x {
+    display: flex;
+    align-items: center;
+    padding: 5px 4px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.btn_insta {
+    display: flex;
+    align-items: center;
+    padding: 6px 6px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.btn_link {
+    display: flex;
+    align-items: center;
+    padding: 5px 4px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.btn_git {
+    display: flex;
+    align-items: center;
+    padding: 6px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+
