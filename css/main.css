@@ -66,7 +66,7 @@ li {
 
 .images{
     position: relative;
-    background-image: url("images/kids.jpg");
+    background-image: url("/images/kids.jpg");
     margin-left: 34px;
     width: 93.5%;
     height: 585px;
@@ -115,6 +115,10 @@ li {
     margin-top: 5px;
 }
 
+.image_about_us {
+    border-radius: 20px;
+}
+
 .about_us2 {
     margin-left: 25px;
 }
@@ -144,7 +148,7 @@ li {
 
 }
 
-.p_images {
+.p_about {
     font-size: 14px;
     line-height: 18px;
     width: 450px;
@@ -162,10 +166,88 @@ li {
     opacity: 0.4;
 }
 
+.header_events {
+    display: flex;
+    gap: 604px;
+}
+
+.h_events {
+    font-size: 12px;
+    margin-left: 30px;
+    position: relative;   /* TODO: Por revisar*/
+    bottom: 7px;
+}
+
+.btt_events {
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.sec1_events {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    position: relative;
+    bottom: 18px;
+}
+
+.sec2_events {
+    display: flex;
+    gap: 32px;
+    margin-left: 36px;
+    margin-top: 32px;
+}
+
+.img_events {
+    border-radius: 10px;
+}
+
 footer{
-    background: blue;
+    background-image: url(/images/footer.jpg);
     margin-left: 34px;
     width: 93.5%;
-    height: 90px;
+    height: 205px;
     opacity: 0.4;
+    display: flex;
+}
+
+.sec1_footer {
+    width: 330px;
+    margin-left: 32px;
+
+}
+
+.icon {
+    margin-top: 26px;
+}
+.p1_footer {
+    position: relative;
+    bottom: 10px;
+    font-size: 12px;
+    width: 250px;
+}
+
+.p2_footer {
+    margin-top: 60px;
+    font-size: 12px;
+}
+
+.sec2_footer {
+    margin-top: 16px;
+    margin-left: 13px;
+}
+
+.h_footer {
+    font-size: 18px;
+}
+
+.p_footer {
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+}
+
+.sec3-4-5_footer {
+    margin-top: 18px;
+    margin-left: 40px;
 }
